@@ -1,3 +1,50 @@
-venv/
-.env
+# ==========================================
+# CommuniMesh SA - .gitignore
+# ==========================================
+
+# --- PlatformIO (Hardware) ---
+.pio/
+.vscode/
+.vscode/.browse.c_cpp.db*
+*.csv
+libdeps/
+*.bin
+*.elf
+
+# --- Python & FastAPI (Backend) ---
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+venv.bak/
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
